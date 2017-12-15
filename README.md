@@ -1,4 +1,5 @@
 # Neighborhood_Map (udacity - project 5)
+Demo: https://sarahalyaagoub.github.io/Neighborhood-Map-Udacity/
 
 # What Does it Do?
 It displays a map and side menu where you can manage and filter location markers on the map.
@@ -7,20 +8,20 @@ If you click any marker, it will query Wikipedia API to display content in the i
      
 
 # App Architecture
-    - It uses KnockoutJS (KO) framework that follows MVVM pattern. (http://knockoutjs.com/)
-    - KO avoids updating the DOM manually with jQuery or JS, and uses observables rather than forcing refreshes manually. 
-    - There are 5 locations in the model. 
-    - Knockout is not used to handle the Google Map API
+- It uses KnockoutJS (KO) framework that follows MVVM pattern. (http://knockoutjs.com/)
+- KO avoids updating the DOM manually with jQuery or JS, and uses observables rather than forcing refreshes manually. 
+- There are 5 locations in the model. 
+- Knockout is not used to handle the Google Map API
 
 # App Functionality
     - Includes a text input field that filters the map markers and list items to locations matching the text input or selection.
-    - Clicking a location on the list displays info window about the location, and animates its associated map marker.
+- Clicking a location on the list displays info window about the location, and animates its associated map marker.
   
 
 # APIs used in the project
-    - Google Maps API allow for the embedding of Google Maps onto web pages with markers using javascript.
-    - Google Fonts API to add fonts to your web pages (https://goo.gl/GZuU8y)
-    - Media Wiki API (Wikipedia) provided additional data about a location in the marker's infoWindow (https://www.mediawiki.org/wiki/API:Main_page).
+- Google Maps API allow for the embedding of Google Maps onto web pages with markers using javascript.
+- Google Fonts API to add fonts to your web pages (https://goo.gl/GZuU8y)
+- Media Wiki API (Wikipedia) provided additional data about a location in the marker's infoWindow (https://www.mediawiki.org/wiki/API:Main_page).
     
     
     
