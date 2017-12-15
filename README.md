@@ -14,7 +14,7 @@ If you click any marker, it will query Wikipedia API to display content in the i
 - Knockout is not used to handle the Google Map API
 
 # App Functionality
-    - Includes a text input field that filters the map markers and list items to locations matching the text input or selection.
+- Includes a text input field that filters the map markers and list items to locations matching the text input or selection.
 - Clicking a location on the list displays info window about the location, and animates its associated map marker.
   
 
