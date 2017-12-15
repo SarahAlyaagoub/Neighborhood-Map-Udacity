@@ -11,7 +11,6 @@ If you click any marker, it will query Wikipedia API to display content in the i
 - It uses KnockoutJS (KO) framework that follows MVVM pattern. (http://knockoutjs.com/)
 - KO avoids updating the DOM manually with jQuery or JS, and uses observables rather than forcing refreshes manually. 
 - There are 5 locations in the model. 
-- Knockout is not used to handle the Google Map API
 
 # App Functionality
 - Includes a text input field that filters the map markers and list items to locations matching the text input or selection.
